@@ -8,26 +8,28 @@ public class Item {
 	private String name; 
 	private Double value;
 	private String origin;
-	private boolean isInStock;
+	//private String isInStock;
 	private String description;
 	
+	//public Item() {}
+	
 	// constructor without id 
-	public Item(String name, String origin, Double value, boolean isInStock, String description) {
+	public Item(String name, Double value, String origin, String description) {
 		this.name = name; 
 		this.origin = origin;
 		this.value = value; 
-		this.isInStock = isInStock;
+		//this.isInStock = isInStock;
 		this.description = description;
 		
 	}
 	
 	// constructor with id 
-	public Item(Long id, String name, String origin, Double value, boolean isInStock, String description) {
+	public Item(Long id, String name, String origin, Double value,  String description) {
 		this.id = id;
 		this.name = name; 
 		this.origin = origin;
 		this.value = value; 
-		this.isInStock = isInStock;
+		//this.isInStock = isInStock;
 		this.description = description;
 	}
 	
@@ -67,13 +69,6 @@ public class Item {
 		this.value = value;
 	}
 	
-	public boolean getStock() {
-		return isInStock;
-	}
-	
-	public void setStock(boolean isInStock) {
-		this.isInStock = isInStock;
-	}
 	
 	public String getDescription() {
 		return description;
@@ -82,15 +77,13 @@ public class Item {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
-	/*
-	 * Hash code Methods 
-	 * */
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(description, id, isInStock, name, origin, value);
+		return Objects.hash(description, id, name, origin, value);
 	}
+	
+	/* Hash code methods */
 
 	@Override
 	public boolean equals(Object obj) {
@@ -102,10 +95,12 @@ public class Item {
 			return false;
 		Item other = (Item) obj;
 		return Objects.equals(description, other.description) && Objects.equals(id, other.id)
-				&& isInStock == other.isInStock && Objects.equals(name, other.name)
-				&& Objects.equals(origin, other.origin) && Objects.equals(value, other.value);
+				&& Objects.equals(name, other.name) && Objects.equals(origin, other.origin)
+				&& Objects.equals(value, other.value);
 	}
 	
+	
+
 	
 	
 	

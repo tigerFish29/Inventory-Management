@@ -24,10 +24,9 @@ public class ItemDAO implements Dao<Item>{
 		String name = resultSet.getString("name");
 		Double value = resultSet.getDouble("value");
 		String origin = resultSet.getString("origin");
-		boolean isInStock = resultSet.getBoolean("isInStock");
 		String description = resultSet.getString("description");
-		return new Item(id, name, origin, value,isInStock, description );
 		
+		return new Item(id, name, origin, value, description);
 	}
 	
 	/*
@@ -83,7 +82,6 @@ public class ItemDAO implements Dao<Item>{
 			statement.setString(1, item.getName());
 			statement.setDouble(2, item.getValue());
 			statement.setString(3, item.getOrigin());
-			statement.setBoolean(4, item.getStock());
 			statement.setString(5, item.getDescription());
 			statement.executeUpdate();
 			return readLatest();
@@ -127,7 +125,6 @@ public class ItemDAO implements Dao<Item>{
 			statement.setString(1, item.getName());
 			statement.setDouble(2, item.getValue());
 			statement.setString(3, item.getOrigin());
-			statement.setBoolean(4, item.getStock());
 			statement.setString(5, item.getDescription());
 			statement.setLong(6, item.getId());
 			return read(item.getId());
@@ -157,6 +154,6 @@ public class ItemDAO implements Dao<Item>{
 		}
 		return 0;
 	}
-}
+} 
 
 
