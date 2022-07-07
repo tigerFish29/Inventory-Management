@@ -1,8 +1,8 @@
 package com.qa.ims.persistence.dao;
 
-import java.lang.System.Logger;
+//import java.lang.System.Logger;
 
-import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.LogManager;
 
 import com.qa.ims.persistence.domain.Item;
 import com.qa.ims.utils.DBUtils;
@@ -15,8 +15,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 public class ItemDAO implements Dao<Item>{
-	public static final Logger LOGGER = (Logger) LogManager.getLogger();
+	public static final Logger LOGGER =  LogManager.getLogger();
 	
 	@Override
 	public Item modelFromResultSet(ResultSet resultSet) throws SQLException {
@@ -46,7 +48,7 @@ public class ItemDAO implements Dao<Item>{
 			}
 			return items;
 		} catch (SQLException e) {
-			((org.apache.logging.log4j.Logger) LOGGER).debug(e);
+			LOGGER.debug(e);
 			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
 		}
 		
