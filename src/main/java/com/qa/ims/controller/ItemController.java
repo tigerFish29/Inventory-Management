@@ -60,8 +60,50 @@ public class ItemController implements CrudController<Item> {
 		// create a new object with values 
 		
 		Item item = itemDAO.create(new Item(name, value, origin, description));
+		((org.apache.logging.log4j.Logger) LOGGER).info("Item has been created!");
 		return item;
 		
+	}
+	
+	/*
+	 *  Updates an existing item by taking user input 
+	 * */
+	
+	@Override 
+	public Item update() {
+		
+		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the id of item you wish to update!");
+		Long id = utils.getLong();
+		
+		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the name of the item to be updated!");
+		String name = utils.getString();
+		
+		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the origin of the new item!");
+		String origin = utils.getString();
+		
+		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the value of the item!");
+		Double value = utils.getDouble();
+		
+		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the dewscription of the new item!");
+		String description = utils.getString();
+		
+		Item item = itemDAO.update(new Item(id, name, origin, value, description));
+		((org.apache.logging.log4j.Logger) LOGGER).info("Item Updated");
+		return item;
+		
+		
+	}
+	
+	/*
+	 * Deletes an existing item by id of the item
+	 * */
+	
+	@Override
+	public int delete() {
+		
+		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the id of the item you wish to delete!");
+		Long id = utils.getLong();
+		return itemDAO.delete(id);
 	}
 }
  
