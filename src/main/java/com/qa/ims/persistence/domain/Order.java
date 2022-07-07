@@ -8,24 +8,24 @@ public class Order {
 	private Long id;
 	private Long customer_id;
 	private String item_name; 
-	private int quantity; 
-	private Date order_date;
+	private Double item_price;
+	private String description;
 	
 	// constructor without id
-	public Order(String item_name, int quantity, Date order_date) {
+	public Order(String item_name, Double item_price, String description) {
 		this.item_name = item_name;
-		this.quantity = quantity;
-		this.order_date = order_date;
+		this.item_price = item_price;
+		this.description = description;
 	}
 	
 	
 	// constructor with id 
-	public Order(Long id, Long customer_id, String item_name, int quantity, Date order_date) {
+	public Order(Long id, Long customer_id, String item_name, Double item_price, String description) {
 		this.id = id;
 		this.customer_id = customer_id;
-		this.item_name = item_name; 
-		this.quantity = quantity; 
-		this.order_date = order_date;
+		this.item_name = item_name;
+		this.item_price = item_price;
+		this.description = description;
 	}
 	
 	/*
@@ -57,46 +57,24 @@ public class Order {
 		this.item_name = item_name;
 	}
 	
-	public int getQuantity() {
-		return quantity;
+	public Double Price() {
+		return item_price;
 	}
 	
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
+	public void setPrice(Double item_price) {
+		this.item_price = item_price;
 	}
 	
-	public Date get_order_date() {
-		return order_date;
+	public String getDescription() {
+		return description;
 	}
 	
-	public void set_order_date(Date order_date) {
-		this.order_date = order_date;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(customer_id, id, item_name, order_date, quantity);
-	}
-
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Order other = (Order) obj;
-		return Objects.equals(customer_id, other.customer_id) && Objects.equals(id, other.id)
-				&& Objects.equals(item_name, other.item_name) && Objects.equals(order_date, other.order_date)
-				&& quantity == other.quantity;
-	}
 	
-	/*
-	 *  Hash code methods
-	 * */
 	
 	
 	
