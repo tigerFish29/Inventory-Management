@@ -1,0 +1,9 @@
+##Risk Assessment 
+
+Some tests have not been completed especially in the Order table 
+Will need to carry out more integration testing to make these pass. 
+
+They could be some breaking changes depending on the Java version and JDK used. 
+Eclipse is probably the best IDE to use 
+
+Issues with Intellij IDE especially with POM xml 
