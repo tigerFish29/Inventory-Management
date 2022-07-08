@@ -40,10 +40,14 @@ CustomerTest.java
 This is performed using Mockito 
 This is mostly for the Controller classes of the application 
 
+## Jira
+[Jira](https://paulchabz.atlassian.net/jira/software/projects/IM/boards/1)
+
 
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
+
 
 ## Versioning
 
