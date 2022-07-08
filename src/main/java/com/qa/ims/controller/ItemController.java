@@ -1,9 +1,9 @@
 package com.qa.ims.controller;
 
-import java.lang.System.Logger;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.qa.ims.persistence.dao.ItemDAO;
 import com.qa.ims.persistence.domain.Item;
@@ -16,7 +16,7 @@ import com.qa.ims.utils.Utils;
 
 public class ItemController implements CrudController<Item> {
 	
-	public static final Logger LOGGER = (Logger) LogManager.getLogger();
+	public static final Logger LOGGER =  LogManager.getLogger();
 	
 	private ItemDAO itemDAO;
 	private Utils utils;
@@ -34,7 +34,7 @@ public class ItemController implements CrudController<Item> {
 	public List<Item> readAll() {
 		List<Item> items = itemDAO.readAll();
 		for (Item item : items) {
-			((org.apache.logging.log4j.Logger) LOGGER).info(item);
+			LOGGER.info(item);
 		}
 		return items;
 	}
@@ -45,22 +45,22 @@ public class ItemController implements CrudController<Item> {
 	
 	public Item create() {
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the name of your item");
+		LOGGER.info("Please enter the name of your item");
 		String name = utils.getString();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the origin of your item");
+		LOGGER.info("Please enter the origin of your item");
 		String origin = utils.getString();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the value of your item");
+		LOGGER.info("Please enter the value of your item");
 		Double value = utils.getDouble();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter a description for the item");
+		LOGGER.info("Please enter a description for the item");
 		String description = utils.getString();
 		
 		// create a new object with values 
 		
 		Item item = itemDAO.create(new Item(name, value, origin, description));
-		((org.apache.logging.log4j.Logger) LOGGER).info("Item has been created!");
+		LOGGER.info("Item has been created!");
 		return item;
 		
 	}
@@ -72,23 +72,23 @@ public class ItemController implements CrudController<Item> {
 	@Override 
 	public Item update() {
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the id of item you wish to update!");
+		LOGGER.info("Please enter the id of item you wish to update!");
 		Long id = utils.getLong();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the name of the item to be updated!");
+        LOGGER.info("Please enter the name of the item to be updated!");
 		String name = utils.getString();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the origin of the new item!");
+		LOGGER.info("Please enter the origin of the new item!");
 		String origin = utils.getString();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the value of the item!");
+		LOGGER.info("Please enter the value of the item!");
 		Double value = utils.getDouble();
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the dewscription of the new item!");
+		LOGGER.info("Please enter the dewscription of the new item!");
 		String description = utils.getString();
 		
 		Item item = itemDAO.update(new Item(id, name, origin, value, description));
-		((org.apache.logging.log4j.Logger) LOGGER).info("Item Updated");
+		LOGGER.info("Item Updated");
 		return item;
 		
 		
@@ -101,7 +101,7 @@ public class ItemController implements CrudController<Item> {
 	@Override
 	public int delete() {
 		
-		((org.apache.logging.log4j.Logger) LOGGER).info("Please enter the id of the item you wish to delete!");
+		LOGGER.info("Please enter the id of the item you wish to delete!");
 		Long id = utils.getLong();
 		return itemDAO.delete(id);
 	}
