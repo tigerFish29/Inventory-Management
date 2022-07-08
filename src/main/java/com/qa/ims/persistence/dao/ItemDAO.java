@@ -49,7 +49,7 @@ public class ItemDAO implements Dao<Item>{
 			return items;
 		} catch (SQLException e) {
 			LOGGER.debug(e);
-			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
+			LOGGER.error(e.getMessage());
 		}
 		
 		return new ArrayList<>();
@@ -67,8 +67,8 @@ public class ItemDAO implements Dao<Item>{
 			resultSet.next();
 			return modelFromResultSet(resultSet);
 		} catch (Exception e) {
-			((org.apache.logging.log4j.Logger) LOGGER).debug(e);
-			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
+			 LOGGER.debug(e);
+			 LOGGER.error(e.getMessage());
 		}
 		return null;
 	}
@@ -88,8 +88,8 @@ public class ItemDAO implements Dao<Item>{
 			statement.executeUpdate();
 			return readLatest();
 		} catch (Exception e) {
-			((org.apache.logging.log4j.Logger) LOGGER).debug(e);
-			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
+			 LOGGER.debug(e);
+			 LOGGER.error(e.getMessage());
 		}
 		return null;
 				
@@ -106,8 +106,8 @@ public class ItemDAO implements Dao<Item>{
 				return modelFromResultSet(resultSet);
 			}
 		} catch (Exception e ) {
-			((org.apache.logging.log4j.Logger) LOGGER).debug(e);
-			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
+			LOGGER.debug(e);
+			 LOGGER.error(e.getMessage());
 		}
 		return null;
 	}
@@ -122,7 +122,7 @@ public class ItemDAO implements Dao<Item>{
 	@Override 
 	public Item update(Item item) {
 		try (Connection connection = DBUtils.getInstance().getConnection();
-				PreparedStatement statement = connection.prepareStatement("UPDATE items SET name = ?, value = ?, origin = ?, isInStock = ?, "
+				PreparedStatement statement = connection.prepareStatement("UPDATE items SET name = ?, value = ?, origin = ?,  "
 						+ "description = ? WHERE id = ?");){
 			statement.setString(1, item.getName());
 			statement.setDouble(2, item.getValue());
@@ -131,8 +131,8 @@ public class ItemDAO implements Dao<Item>{
 			statement.setLong(6, item.getId());
 			return read(item.getId());
 		} catch (Exception e ) {
-			((org.apache.logging.log4j.Logger) LOGGER).debug(e);
-			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
+			 LOGGER.debug(e);
+			 LOGGER.error(e.getMessage());
 		}
 		return null;
 	}
@@ -151,8 +151,8 @@ public class ItemDAO implements Dao<Item>{
 			return statement.executeUpdate();
 			
 		} catch (Exception e) {
-			((org.apache.logging.log4j.Logger) LOGGER).debug(e);
-			((org.apache.logging.log4j.Logger) LOGGER).error(e.getMessage());
+			LOGGER.debug(e);
+			LOGGER.error(e.getMessage());
 		}
 		return 0;
 	}
