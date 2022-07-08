@@ -1,6 +1,6 @@
 package com.qa.ims.persistence.domain;
 
-import java.sql.Date;
+
 import java.util.Objects;
 
 public class Order {
@@ -12,10 +12,11 @@ public class Order {
 	private String description;
 	
 	// constructor without id
-	public Order(String item_name, Double item_price, String description) {
+	public Order(String item_name, Long customer_id,Double item_price, String description) {
 		this.item_name = item_name;
 		this.item_price = item_price;
 		this.description = description;
+		this.customer_id = customer_id;
 	}
 	
 	
@@ -72,8 +73,35 @@ public class Order {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
+	/*
+	 *   Hash code Methods for the class 
+	 * */
+	
 
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(customer_id, description, id, item_name, item_price);
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Order other = (Order) obj;
+		return Objects.equals(customer_id, other.customer_id) && Objects.equals(description, other.description)
+				&& Objects.equals(id, other.id) && Objects.equals(item_name, other.item_name)
+				&& Objects.equals(item_price, other.item_price);
+	}
+
+
+	
 	
 	
 	
