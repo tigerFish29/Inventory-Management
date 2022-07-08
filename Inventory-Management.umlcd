@@ -1,4 +1,2932 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1tv1MP6eEeyUB803NELkGg">
-  <modelElement href="platform:/resource/Inventory-Management/Inventory-Management.uml#_1r73UP6eEeyUB803NELkGg"/>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1tv1MP6eEeyUB803NELkGg">
+  <modelElement href="Inventory-Management.uml#_2OJMg_6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3o-y0P6eEeyUB803NELkGg" source="_3o_Z4P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WEZdP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3o-y0f6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WFAgP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3o-y0v6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3o-y0_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WEZdf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3o-y1P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3o-y1f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3o-y1v6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VUylP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3o-y1_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3o-y2P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3po6IP6eEeyUB803NELkGg" source="_3ptyoP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WDLUP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3pqvU_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WDyYP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3pqvUP6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3pqvUf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WDLUf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3pqvVf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3pqvVP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3pqvUv6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VTkcP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3pqvV_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3pqvVv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3pr9cP6eEeyUB803NELkGg" sourceAnchor="187.0,0.0" targetAnchor="519.0,55.0" target="_3qU2qf6eEeyUB803NELkGg" source="_3ptyoP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WDyYf6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32XHgP6eEeyUB803NELkGg" sourceY="-156" targetX="603"/>
+    <stereotypes xmi:id="_3pr9cf6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WDyY_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3pr9cv6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32ax4P6eEeyUB803NELkGg" position="-22.479644358188352,57.47537677710528"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3pr9c_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WDyYv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32aK0_6eEeyUB803NELkGg" position="-16.38490085977253,-79.28400862788959"/>
+      <visibility xmi:id="_3pr9dP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3pr9df6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3pr9dv6eEeyUB803NELkGg" aggregationKind="NONE" name="customers" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VULgf6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32ax4f6eEeyUB803NELkGg" position="559.3998612217802,13.627411497802655"/>
+      <visibility xmi:id="_3pr9d_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3pr9eP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3pskgP6eEeyUB803NELkGg" sourceAnchor="375.0,124.0" targetAnchor="197.0,156.0" target="_3qlVWf6eEeyUB803NELkGg" source="_3ptyoP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WDyZP6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32XukP6eEeyUB803NELkGg" sourceX="645" targetY="179"/>
+    <stereotypes xmi:id="_3pskgf6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WEZcP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3pskgv6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32cnEP6eEeyUB803NELkGg" position="-615.3635705392952,-15.375360953091445"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3pskg_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WDyZf6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32cAAP6eEeyUB803NELkGg" position="47.116517048897265,-32.693261622091995"/>
+      <visibility xmi:id="_3pskhP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3pskhf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3pskhv6eEeyUB803NELkGg" aggregationKind="NONE" name="items" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VUykP6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32cnEf6eEeyUB803NELkGg" position="-628.9789752864829,145.39042285018763"/>
+      <visibility xmi:id="_3pskh_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3pskiP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3ptLkP6eEeyUB803NELkGg" sourceAnchor="217.0,0.0" targetAnchor="289.0,100.0" target="_3rkz0P6eEeyUB803NELkGg" source="_3ptyoP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WEZcf6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Xukf6eEeyUB803NELkGg" sourceY="-341" targetX="220"/>
+    <stereotypes xmi:id="_3ptLkf6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WEZc_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3ptLkv6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32dOIP6eEeyUB803NELkGg" position="-10.101269447897977,222.22711096708633"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3ptLk_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WEZcv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32cnEv6eEeyUB803NELkGg" position="3.7929542468905026,-69.80763298479991"/>
+      <visibility xmi:id="_3ptLlP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3ptLlf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3ptLlv6eEeyUB803NELkGg" aggregationKind="NONE" name="utils" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VUykv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32dOIf6eEeyUB803NELkGg" position="213.17433072204565,136.10034448246796"/>
+      <visibility xmi:id="_3ptLl_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3ptLmP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3p3jof6eEeyUB803NELkGg" targetItem="_3qDJ0P6eEeyUB803NELkGg" sourceItem="_3p3joP6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3p4KsP6eEeyUB803NELkGg" sourceAnchor="431.0,78.0" targetAnchor="75.0,145.0" dashed="true" superClass="_3qqN0P6eEeyUB803NELkGg" subClass="_3qDJ0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2UqrQP6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32YVof6eEeyUB803NELkGg" sourceX="1225" targetX="90" targetY="1133"/>
+    <bendpoints xmi:id="_32YVov6eEeyUB803NELkGg" sourceX="1225" sourceY="-1106" targetX="90" targetY="27"/>
+    <bendpoints xmi:id="_32YVo_6eEeyUB803NELkGg" sourceX="1135" sourceY="-1106" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3p4Ksf6eEeyUB803NELkGg" source="_3qDJ0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WGOoP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3p5_4_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WGOov6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3p5_4P6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3p5_4f6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WGOof6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3p7OA_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3p7OAv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3p5_4v6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VcuYP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3p7OBf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3p7OBP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3p4xwP6eEeyUB803NELkGg" sourceAnchor="0.0,78.0" targetAnchor="0.0,87.0" target="_3rkz0P6eEeyUB803NELkGg" source="_3qDJ0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WG1sf6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Xukv6eEeyUB803NELkGg" sourceX="-578" targetX="-683" targetY="1221"/>
+    <bendpoints xmi:id="_32Xuk_6eEeyUB803NELkGg" sourceX="-578" sourceY="-1221" targetX="-683"/>
+    <stereotypes xmi:id="_3p5_5_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WG1s_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3p5_5P6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32d1Mf6eEeyUB803NELkGg" position="475.414708173809,594.7715372651742"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3p5_5f6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WG1sv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32d1MP6eEeyUB803NELkGg" position="-56.401695156720564,-33.98539305092572"/>
+      <visibility xmi:id="_3p7OB_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3p7OBv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3p5_5v6eEeyUB803NELkGg" aggregationKind="NONE" name="utils" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VcuZP6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32d1Mv6eEeyUB803NELkGg" position="-251.00180552367272,1187.1651071249416"/>
+      <visibility xmi:id="_3p7OCf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3p7OCP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3p6m8f6eEeyUB803NELkGg" targetItem="_3qqN0P6eEeyUB803NELkGg" sourceItem="_3p6m8P6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3p7OAP6eEeyUB803NELkGg" sourceAnchor="234.0,0.0" targetAnchor="75.0,145.0" dashed="true" superClass="_3qqN0P6eEeyUB803NELkGg" subClass="_3qlVWf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2UxY8P6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Y8t_6eEeyUB803NELkGg" sourceY="-28" targetX="-112" targetY="27"/>
+    <bendpoints xmi:id="_32Y8uP6eEeyUB803NELkGg" sourceX="112" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3p7OAf6eEeyUB803NELkGg" sourceAnchor="260.0,0.0" targetAnchor="75.0,145.0" dashed="true" superClass="_3qqN0P6eEeyUB803NELkGg" subClass="_3qU2qf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2U2Rcf6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Y8sP6eEeyUB803NELkGg" sourceY="-275" targetX="-1844" targetY="-220"/>
+    <bendpoints xmi:id="_32Y8sf6eEeyUB803NELkGg" sourceX="1964" sourceY="-275" targetX="120" targetY="-220"/>
+    <bendpoints xmi:id="_32Y8sv6eEeyUB803NELkGg" sourceX="1964" sourceY="-28" targetX="120" targetY="27"/>
+    <bendpoints xmi:id="_32Y8s_6eEeyUB803NELkGg" sourceX="1844" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3p8cIf6eEeyUB803NELkGg" targetItem="_3qlVWf6eEeyUB803NELkGg" sourceItem="_3p8cIP6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3p9DMP6eEeyUB803NELkGg" source="_3qlVWf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WID0f6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3p-4Yv6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WID0_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3p-RUP6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3p-4YP6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WID0v6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qAtkf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qAtkP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3p-4Yf6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VfKpP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qAtk_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qAtkv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3p9DMf6eEeyUB803NELkGg" sourceAnchor="204.0,0.0" targetAnchor="144.0,0.0" target="_3rkz0P6eEeyUB803NELkGg" source="_3qlVWf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WIq4f6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Y8tP6eEeyUB803NELkGg" sourceY="-245" targetX="1175" targetY="-15"/>
+    <bendpoints xmi:id="_32Y8tf6eEeyUB803NELkGg" sourceX="-1175" sourceY="-245" targetY="-15"/>
+    <stereotypes xmi:id="_3p-4Zv6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WIq4_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3p-4Y_6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32g4gP6eEeyUB803NELkGg" position="578.606877373792,191.46199758123694"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3p-4ZP6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WIq4v6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32gRcf6eEeyUB803NELkGg" position="3.9572725379837266,-70.77461215305979"/>
+      <visibility xmi:id="_3qBUof6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qBUoP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3p-4Zf6eEeyUB803NELkGg" aggregationKind="NONE" name="utils" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2Vfxsv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32g4gf6eEeyUB803NELkGg" position="1167.5141652529312,156.43188539769602"/>
+      <visibility xmi:id="_3qBUo_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qBUov6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3p9DM_6eEeyUB803NELkGg" targetItem="_3qU2qf6eEeyUB803NELkGg" sourceItem="_3p9DMv6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3p9qQP6eEeyUB803NELkGg" source="_3qU2qf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WJ5BP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3qAGg_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WJ5Bv6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3qAGgP6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3qAGgf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WJ5Bf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qBUpv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qBUpf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3qAGgv6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2Vhm4P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qB7sf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qB7sP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3p9qQf6eEeyUB803NELkGg" sourceAnchor="519.0,25.0" targetAnchor="144.0,175.0" target="_3rkz0P6eEeyUB803NELkGg" source="_3qU2qf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WKgE_6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32YVpP6eEeyUB803NELkGg" sourceX="268" targetY="80"/>
+    <stereotypes xmi:id="_3qAGh_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WKgFf6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3qAGhP6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32fDUf6eEeyUB803NELkGg" position="-232.8589914508952,0.5078966376653398"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3qAGhf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WKgFP6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32fDUP6eEeyUB803NELkGg" position="42.48366705712044,-10.918418608716024"/>
+      <visibility xmi:id="_3qB7s_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qB7sv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3qAGhv6eEeyUB803NELkGg" aggregationKind="NONE" name="utils" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2ViN8v6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32fDUv6eEeyUB803NELkGg" position="-219.04236803673183,68.26883883750969"/>
+      <visibility xmi:id="_3qB7tf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qB7tP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3p9qQ_6eEeyUB803NELkGg" targetItem="_3qlVcf6eEeyUB803NELkGg" sourceItem="_3p9qQv6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qCiwP6eEeyUB803NELkGg" sourceAnchor="0.0,108.0" targetAnchor="175.0,194.0" target="_3rDPYP6eEeyUB803NELkGg" source="_3qDJ0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WGOo_6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32YVoP6eEeyUB803NELkGg" sourceX="-1165" targetY="163"/>
+    <stereotypes xmi:id="_3qCiwf6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WG1sP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3qCiwv6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32ecQf6eEeyUB803NELkGg" position="1137.2327444785014,-16.37123614062648"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3qCiw_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WGOpP6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32ecQP6eEeyUB803NELkGg" position="-56.07243469456159,-33.70333610512489"/>
+      <visibility xmi:id="_3qCixP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qCixf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3qCixv6eEeyUB803NELkGg" aggregationKind="NONE" name="orderDAO" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VcuYv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32ecQv6eEeyUB803NELkGg" position="1153.7447048517186,128.95665369441622"/>
+      <visibility xmi:id="_3qCix_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qCiyP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3qJ3gf6eEeyUB803NELkGg" targetItem="_3qLstP6eEeyUB803NELkGg" sourceItem="_3qJ3gP6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qKekP6eEeyUB803NELkGg" source="_3qLstP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WFAgf6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3qLFpP6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WFAg_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3qLFof6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3qLFov6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WFAgv6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qLssf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qLssP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3qLFo_6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VVZof6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qLss_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qLssv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3qKekv6eEeyUB803NELkGg" targetItem="_3qLsyv6eEeyUB803NELkGg" sourceItem="_3qKekf6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_3qLFoP6eEeyUB803NELkGg" targetItem="_3qLszf6eEeyUB803NELkGg" sourceItem="_3qKek_6eEeyUB803NELkGg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qU2oP6eEeyUB803NELkGg" sourceAnchor="0.0,78.0" targetAnchor="186.0,194.0" target="_3q9v0P6eEeyUB803NELkGg" source="_3qU2qf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WKgEP6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32YVpf6eEeyUB803NELkGg" sourceX="-314" targetY="133"/>
+    <stereotypes xmi:id="_3qU2of6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WKgEv6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3qU2ov6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32fqYf6eEeyUB803NELkGg" position="273.996511910855,0.6706052144883188"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3qU2o_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WKgEf6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32fqYP6eEeyUB803NELkGg" position="-55.88284820057629,-11.74825595542751"/>
+      <visibility xmi:id="_3qU2pP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU2pf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3qU2pv6eEeyUB803NELkGg" aggregationKind="NONE" name="customerDAO" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2ViN8P6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32gRcP6eEeyUB803NELkGg" position="283.704591119783,121.72608569359772"/>
+      <visibility xmi:id="_3qU2p_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qU2qP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qlVUP6eEeyUB803NELkGg" sourceAnchor="409.0,78.0" targetAnchor="172.0,194.0" target="_3rHg0P6eEeyUB803NELkGg" source="_3qlVWf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WID1P6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Y8tv6eEeyUB803NELkGg" sourceX="305" targetY="133"/>
+    <stereotypes xmi:id="_3qlVUf6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WIq4P6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3qlVUv6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32hfkP6eEeyUB803NELkGg" position="-309.4550280899157,-16.820983358049943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3qlVU_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WID1f6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32g4gv6eEeyUB803NELkGg" position="43.64489771030685,-33.57697784606643"/>
+      <visibility xmi:id="_3qlVVP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVVf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3qlVVv6eEeyUB803NELkGg" aggregationKind="NONE" name="itemDAO" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VfxsP6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32hfkf6eEeyUB803NELkGg" position="-367.7399385201845,98.36302427392718"/>
+      <visibility xmi:id="_3qlVV_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qlVWP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3qxikP6eEeyUB803NELkGg" sourceAnchor="172.0,0.0" targetAnchor="152.0,183.0" dashed="true" superClass="_3q3pNP6eEeyUB803NELkGg" subClass="_3rHg0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2UZlgP6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Zjwv6eEeyUB803NELkGg" sourceY="-253" targetX="2437" targetY="-198"/>
+    <bendpoints xmi:id="_32Zjw_6eEeyUB803NELkGg" sourceX="-2615" sourceY="-253" targetX="-178" targetY="-198"/>
+    <bendpoints xmi:id="_32ZjxP6eEeyUB803NELkGg" sourceX="-2615" sourceY="-27" targetX="-178" targetY="28"/>
+    <bendpoints xmi:id="_32Zjxf6eEeyUB803NELkGg" sourceX="-2437" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3qxikf6eEeyUB803NELkGg" sourceAnchor="175.0,0.0" targetAnchor="152.0,183.0" dashed="true" superClass="_3q3pNP6eEeyUB803NELkGg" subClass="_3rDPYP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2Ud28P6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32ZjwP6eEeyUB803NELkGg" sourceY="-1027" targetX="-662" targetY="28"/>
+    <bendpoints xmi:id="_32Zjwf6eEeyUB803NELkGg" sourceX="662" sourceY="-1027" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_3qxikv6eEeyUB803NELkGg" sourceAnchor="186.0,0.0" targetAnchor="152.0,183.0" dashed="true" superClass="_3q3pNP6eEeyUB803NELkGg" subClass="_3q9v0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2UnA4P6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Y8uf6eEeyUB803NELkGg" sourceY="-27" targetX="-349" targetY="28"/>
+    <bendpoints xmi:id="_32Y8uv6eEeyUB803NELkGg" sourceX="349" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qywsP6eEeyUB803NELkGg" source="_3rHg0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WFAhP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3q0l4_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WFAhv6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3q0l4P6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3q0l4f6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WFAhf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3CIf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3CIP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3q0l4v6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VWnw_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3CI_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3CIv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qzXwP6eEeyUB803NELkGg" source="_3rDPYP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WFAh_6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3q1M8_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WFnkP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3q1M8P6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3q1M8f6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WFAiP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3CJf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3CJP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3q1M8v6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VXO0P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3CJ_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3CJv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3qzXwf6eEeyUB803NELkGg" source="_3q9v0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WFnlP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3q2bE_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WFnlv6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3q2bEP6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3q2bEf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WFnlf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pMf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pMP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3q2bEv6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VcHUP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pM_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pMv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rQqwP6eEeyUB803NELkGg" source="_3rR45P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WFnkf6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3rRR0_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WFnk_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3rRR0P6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3rRR0f6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WFnkv6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rR44f6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rR44P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3rRR0v6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VZEAP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rR44_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rR44v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3ri-oP6eEeyUB803NELkGg" source="_3rkz0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WHcw_6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3rjls_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WHcxf6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3rjlsP6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3rjlsf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WHcxP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkMwf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkMwP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3rjlsv6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VfKoP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkMw_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rkMwv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rkMxP6eEeyUB803NELkGg" source="_3rkz0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WHcxv6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3rkMxf6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WID0P6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3rkMxv6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3rkMx_6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WHcx_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkMyP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkMyf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3rkMyv6eEeyUB803NELkGg" aggregationKind="NONE" name="scanner" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VfKov6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkMy_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rkMzP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rn3IP6eEeyUB803NELkGg" sourceAnchor="145.0,0.0" targetAnchor="0.0,125.0" target="_3rqTYv6eEeyUB803NELkGg" source="_3rqTYv6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WHcwP6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Zjxv6eEeyUB803NELkGg" sourceY="-96" targetX="145" targetY="-221"/>
+    <bendpoints xmi:id="_32Zjx_6eEeyUB803NELkGg" sourceX="-260" sourceY="-96" targetX="-115" targetY="-221"/>
+    <bendpoints xmi:id="_32ZjyP6eEeyUB803NELkGg" sourceX="-260" sourceY="125" targetX="-115"/>
+    <stereotypes xmi:id="_3rpFQ_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WHcwv6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3rpFQP6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32iGof6eEeyUB803NELkGg" position="199.30555555555566,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3rpFQf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WHcwf6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32iGoP6eEeyUB803NELkGg" position="-21.194444444444343,-50.0"/>
+      <visibility xmi:id="_3rpsUf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rpsUP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3rpFQv6eEeyUB803NELkGg" aggregationKind="NONE" name="instance" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2Vd8hf6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32iGov6eEeyUB803NELkGg" position="-64.19444444444434,4.0"/>
+      <visibility xmi:id="_3rpsU_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rpsUv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3roeMP6eEeyUB803NELkGg" source="_3rqTYv6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WG1tP6eEeyUB803NELkGg"/>
+    <stereotypes xmi:id="_3rpFR_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WG1tv6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3rpFRP6eEeyUB803NELkGg" text=""/>
+    <sourceRole xmi:id="_3rpFRf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WG1tf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rpsVv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rpsVf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3rpFRv6eEeyUB803NELkGg" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VdVcf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rqTYf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rqTYP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rvL4P6eEeyUB803NELkGg" sourceAnchor="155.0,82.0" targetAnchor="239.0,175.0" target="_3rkz0P6eEeyUB803NELkGg" source="_3r0EYP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WIq5P6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32Zjyf6eEeyUB803NELkGg" sourceX="22" targetY="929"/>
+    <stereotypes xmi:id="_3ry2QP6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WIq5v6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3ryPMP6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32itsP6eEeyUB803NELkGg" position="64.10334921330475,-13.351572979920547"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3ryPMf6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WIq5f6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32iGo_6eEeyUB803NELkGg" position="36.811908831258734,-31.217089330705903"/>
+      <visibility xmi:id="_3rzdUf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rzdUP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3ryPMv6eEeyUB803NELkGg" aggregationKind="NONE" name="utils" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VgYwP6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32itsf6eEeyUB803NELkGg" position="129.74636257527123,897.0664190802468"/>
+      <visibility xmi:id="_3rzdU_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rzdUv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rvy8P6eEeyUB803NELkGg" sourceAnchor="0.0,94.0" targetAnchor="126.0,194.0" target="_3q9v0P6eEeyUB803NELkGg" source="_3r0EYP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WJR8P6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32aK0P6eEeyUB803NELkGg" sourceX="-1079" targetY="941"/>
+    <stereotypes xmi:id="_3ry2RP6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WJR8v6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3ry2Qf6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32jUwf6eEeyUB803NELkGg" position="1057.4799520442264,-17.954063165899925"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3ry2Qv6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WJR8f6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32jUwP6eEeyUB803NELkGg" position="-57.65905735241404,-33.661046793076366"/>
+      <visibility xmi:id="_3rzdVv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rzdVf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3ry2Q_6eEeyUB803NELkGg" aggregationKind="NONE" name="dao" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VgYw_6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32jUwv6eEeyUB803NELkGg" position="1096.033591842107,907.7328725055027"/>
+      <visibility xmi:id="_3rzdWP6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rzdV_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3rwaAP6eEeyUB803NELkGg" sourceAnchor="0.0,64.0" targetAnchor="224.0,156.0" target="_3qU2qf6eEeyUB803NELkGg" source="_3r0EYP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WJR8_6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32aK0f6eEeyUB803NELkGg" sourceX="-481" targetY="700"/>
+    <stereotypes xmi:id="_3ry2SP6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WJ5AP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3ry2Rf6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32j70f6eEeyUB803NELkGg" position="381.3622776685566,0.942987602744779"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3ry2Rv6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WJR9P6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32j70P6eEeyUB803NELkGg" position="-56.706993921754076,-11.861778852437055"/>
+      <visibility xmi:id="_3rzdW_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rzdWv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3ry2R_6eEeyUB803NELkGg" aggregationKind="NONE" name="controller" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2VgYxv6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32j70v6eEeyUB803NELkGg" position="343.4491947623978,688.6972819991715"/>
+      <visibility xmi:id="_3rzdXf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rzdXP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_3r3uwP6eEeyUB803NELkGg" sourceAnchor="0.0,84.0" targetAnchor="156.0,194.0" target="_3q9v0P6eEeyUB803NELkGg" source="_3r5j8P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2WJ5Af6eEeyUB803NELkGg"/>
+    <bendpoints xmi:id="_32aK0v6eEeyUB803NELkGg" sourceX="-319" targetY="372"/>
+    <stereotypes xmi:id="_3r4V0_6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2WJ5A_6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_3r4V0P6eEeyUB803NELkGg" text="">
+      <visualProperties xmi:id="_32ki4f6eEeyUB803NELkGg" position="289.2634719094526,0.09785304149102103"/>
+    </nameVisual>
+    <sourceRole xmi:id="_3r4V0f6eEeyUB803NELkGg" aggregationKind="NONE" name="">
+      <modelElement href="Inventory-Management.uml#_2WJ5Av6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32ki4P6eEeyUB803NELkGg" position="-58.67109310177739,-11.544671124551769"/>
+      <visibility xmi:id="_3r484f6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r484P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_3r4V0v6eEeyUB803NELkGg" aggregationKind="NONE" name="DAO" navigable="true">
+      <modelElement href="Inventory-Management.uml#_2Vg_0v6eEeyUB803NELkGg"/>
+      <visualProperties xmi:id="_32ki4v6eEeyUB803NELkGg" position="339.9091394716106,361.1487041207298"/>
+      <visibility xmi:id="_3r484_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3r484v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3p3joP6eEeyUB803NELkGg" sourceConnectionVisual="_3p3jof6eEeyUB803NELkGg" text="Takes in order details for CRUD functionality&#xD;&#xA; *" item="_3qDJ0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V8do_6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3p6m8P6eEeyUB803NELkGg" sourceConnectionVisual="_3p6m8f6eEeyUB803NELkGg" text="Create, Read, Update and Delete controller. Takes in inputs for each action&#xD;&#xA;to be sent to a service class" item="_3qqN0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V72lP6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3p8cIP6eEeyUB803NELkGg" sourceConnectionVisual="_3p8cIf6eEeyUB803NELkGg" text="Takes in item details for crud functionality.&#xD;&#xA;&#xD;&#xA; *" item="_3qlVWf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V8dpP6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3p9DMv6eEeyUB803NELkGg" sourceConnectionVisual="_3p9DM_6eEeyUB803NELkGg" text="Takes in customer details for CRUD functionality&#xD;&#xA; *" item="_3qU2qf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V9Esv6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3p9qQv6eEeyUB803NELkGg" sourceConnectionVisual="_3p9qQ_6eEeyUB803NELkGg" text="Creates an Item by taking in user input&#xD;&#xA;&#x9; *" item="_3qlVcf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V9EsP6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3qJ3gP6eEeyUB803NELkGg" sourceConnectionVisual="_3qJ3gf6eEeyUB803NELkGg" text="Action is a collection of commands which are used to determine the type of&#xD;&#xA;function to apply to an entity.&#xD;&#xA; *" item="_3qLstP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V7PgP6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3qKekf6eEeyUB803NELkGg" sourceConnectionVisual="_3qKekv6eEeyUB803NELkGg" text="Prints out all possible actions" item="_3qLsyv6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V72kv6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_3qKek_6eEeyUB803NELkGg" sourceConnectionVisual="_3qLFoP6eEeyUB803NELkGg" text="Gets an action based on a users input. If user enters a non-specified&#xD;&#xA;&#x9; * enumeration, it will ask for another input.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return Action type" item="_3qLszf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2V72k_6eEeyUB803NELkGg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3o_Z4P6eEeyUB803NELkGg" name="Runner" associationsOut="_3o-y0P6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2PXUgP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3o_Z4f6eEeyUB803NELkGg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3o_Z4v6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3o_Z4_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VUylP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3o_Z5P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3o_Z5f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3o_Z5v6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3o_Z5_6eEeyUB803NELkGg" name="main" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2PX7kP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3o_Z6P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3o_Z6f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3o_Z6v6eEeyUB803NELkGg" name="args">
+        <modelElement href="Inventory-Management.uml#_2PX7kf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3o_Z6_6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_3o_Z7P6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3ptyoP6eEeyUB803NELkGg" name="IMS" associationsOut="_3po6IP6eEeyUB803NELkGg _3pr9cP6eEeyUB803NELkGg _3pskgP6eEeyUB803NELkGg _3ptLkP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2POKkP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3ptyof6eEeyUB803NELkGg" position="-41.0,466.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3ptyov6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3ptyo_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VTkcP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3ptypP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3ptypf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3ptypv6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3ptyp_6eEeyUB803NELkGg" name="customers">
+      <modelElement href="Inventory-Management.uml#_2VULgf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3ptyqP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VULgv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3ptyqf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3ptyqv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3ptyq_6eEeyUB803NELkGg" name="CustomerController">
+        <modelElement href="Inventory-Management.uml#_2QZ2Uv6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3ptyrP6eEeyUB803NELkGg" name="items">
+      <modelElement href="Inventory-Management.uml#_2VUykP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3ptyrf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VUykf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3ptyrv6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3ptyr_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3ptysP6eEeyUB803NELkGg" name="ItemController">
+        <modelElement href="Inventory-Management.uml#_2QQFUP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3ptysf6eEeyUB803NELkGg" name="utils">
+      <modelElement href="Inventory-Management.uml#_2VUykv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3ptysv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VUyk_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3ptys_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3ptytP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3ptytf6eEeyUB803NELkGg" name="Utils">
+        <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3ptytv6eEeyUB803NELkGg" name="IMS">
+      <modelElement href="Inventory-Management.uml#_2PTqIP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3ptyt_6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3ptyuP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3ptyuf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3ptyuv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PURMv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3ptyu_6eEeyUB803NELkGg" name="IMS">
+          <modelElement href="Inventory-Management.uml#_2POKkP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3ptyvP6eEeyUB803NELkGg" name="imsSystem">
+      <modelElement href="Inventory-Management.uml#_2PU4QP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3ptyvf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3ptyvv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3ptyv_6eEeyUB803NELkGg" name="domainAction">
+      <modelElement href="Inventory-Management.uml#_2UMKIP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3ptywP6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3ptywf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3ptywv6eEeyUB803NELkGg" name="domain">
+        <modelElement href="Inventory-Management.uml#_2UMKIf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3ptyw_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3ptyxP6eEeyUB803NELkGg" name="Domain">
+          <modelElement href="Inventory-Management.uml#_2P1OkP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3ptyxf6eEeyUB803NELkGg" name="doAction">
+      <modelElement href="Inventory-Management.uml#_2UMxMP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3ptyxv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3ptyx_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3ptyyP6eEeyUB803NELkGg" name="crudController">
+        <modelElement href="Inventory-Management.uml#_2UMxMf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3ptyyf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3ptyyv6eEeyUB803NELkGg" name="CrudController">
+          <modelElement href="Inventory-Management.uml#_2PdbIP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3ptyy_6eEeyUB803NELkGg" name="action">
+        <modelElement href="Inventory-Management.uml#_2UMxMv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3ptyzP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3ptyzf6eEeyUB803NELkGg" name="Action">
+          <modelElement href="Inventory-Management.uml#_2PYioP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3qDJ0P6eEeyUB803NELkGg" comments="_3p3joP6eEeyUB803NELkGg" targetConnectionVisual="_3p3jof6eEeyUB803NELkGg" name="OrderController" associationsOut="_3p4Ksf6eEeyUB803NELkGg _3p4xwP6eEeyUB803NELkGg _3qCiwP6eEeyUB803NELkGg" generalizations="_3p4KsP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QFGMP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3qDJ0f6eEeyUB803NELkGg" position="-438.0,1255.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3qDJ0v6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3qDJ0_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VcuYP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qDJ1P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qDJ1f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qDJ1v6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qDJ1_6eEeyUB803NELkGg" name="orderDAO">
+      <modelElement href="Inventory-Management.uml#_2VcuYv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qDJ2P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VcuY_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qDJ2f6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qDJ2v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qDJ2_6eEeyUB803NELkGg" name="OrderDAO">
+        <modelElement href="Inventory-Management.uml#_2PtSwP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qDJ3P6eEeyUB803NELkGg" name="utils">
+      <modelElement href="Inventory-Management.uml#_2VcuZP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qDJ3f6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VdVcP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qDJ3v6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qDJ3_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qDJ4P6eEeyUB803NELkGg" name="Utils">
+        <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3qDJ4f6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2QFtQP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qDJ4v6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QGUUP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qDJ4_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QGUUf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qDJ5P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qDJ5f6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3qDJ5v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QFtQf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qDJ5_6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qDJ6P6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2QGUU_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qDJ6f6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QG7YP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qDJ6v6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QG7Yf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qDJ6_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qDJ7P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qDJ7f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UrSVv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qDJ7v6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qDJ7_6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2QG7Y_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qDJ8P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QHicP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qDJ8f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QHicf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qDJ8v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qDJ8_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qDJ9P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UrSV_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qDJ9f6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qDJ9v6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2QHic_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qDJ9_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QIJgP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qDJ-P6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QIJgf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qDJ-f6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qDJ-v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qDJ-_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QHidP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qDJ_P6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qDJ_f6eEeyUB803NELkGg" name="OrderController">
+      <modelElement href="Inventory-Management.uml#_2UrSUP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3qDJ_v6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3qDJ__6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qDKAP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qDKAf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UrSVf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qDKAv6eEeyUB803NELkGg" name="OrderController">
+          <modelElement href="Inventory-Management.uml#_2QFGMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3qDKA_6eEeyUB803NELkGg" name="orderDAO">
+        <modelElement href="Inventory-Management.uml#_2UrSUf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qDKBP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qDKBf6eEeyUB803NELkGg" name="OrderDAO">
+          <modelElement href="Inventory-Management.uml#_2PtSwP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3qDKBv6eEeyUB803NELkGg" name="utils">
+        <modelElement href="Inventory-Management.uml#_2UrSUv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qDKB_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qDKCP6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_3qLstP6eEeyUB803NELkGg" comments="_3qJ3gP6eEeyUB803NELkGg" targetConnectionVisual="_3qJ3gf6eEeyUB803NELkGg" name="Action" associationsOut="_3qKekP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2PYioP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3qLstf6eEeyUB803NELkGg" position="402.0,307.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3qLstv6eEeyUB803NELkGg" name="Patch">
+      <modelElement href="Inventory-Management.uml#_3otGAP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <visibility xmi:id="_3qLst_6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3qLsuP6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VVZof6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qLsuf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qLsuv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qLsu_6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qLsvP6eEeyUB803NELkGg" name="description">
+      <modelElement href="Inventory-Management.uml#_2VWAsP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qLsvf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VWAsf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qLsvv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qLsv_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qLswP6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3qLswf6eEeyUB803NELkGg" name="Action">
+      <modelElement href="Inventory-Management.uml#_2Pa-4P6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3qLswv6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3qLsw_6eEeyUB803NELkGg" label="~"/>
+      <cardinality xmi:id="_3qLsxP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qLsxf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Pa-5P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qLsxv6eEeyUB803NELkGg" name="Action">
+          <modelElement href="Inventory-Management.uml#_2PYioP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3qLsx_6eEeyUB803NELkGg" name="description">
+        <modelElement href="Inventory-Management.uml#_2Pa-4f6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qLsyP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qLsyf6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3qLsyv6eEeyUB803NELkGg" comments="_3qKekf6eEeyUB803NELkGg" targetConnectionVisual="_3qKekv6eEeyUB803NELkGg" name="printActions" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2Pbl8P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qLsy_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qLszP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3qLszf6eEeyUB803NELkGg" comments="_3qKek_6eEeyUB803NELkGg" targetConnectionVisual="_3qLFoP6eEeyUB803NELkGg" name="getAction" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2UOmYP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qLszv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qLsz_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qLs0P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UPNcP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qLs0f6eEeyUB803NELkGg" name="Action">
+          <modelElement href="Inventory-Management.uml#_2PYioP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3qLs0v6eEeyUB803NELkGg" name="utils">
+        <modelElement href="Inventory-Management.uml#_2UOmYf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qLs0_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qLs1P6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_3qLs1f6eEeyUB803NELkGg" name="CREATE">
+      <modelElement href="Inventory-Management.uml#_2PZJsP6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3qLs1v6eEeyUB803NELkGg" name="READ">
+      <modelElement href="Inventory-Management.uml#_2PZJsv6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3qLs1_6eEeyUB803NELkGg" name="UPDATE">
+      <modelElement href="Inventory-Management.uml#_2PZwwP6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3qLs2P6eEeyUB803NELkGg" name="DELETE">
+      <modelElement href="Inventory-Management.uml#_2PZwwv6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3qLs2f6eEeyUB803NELkGg" name="RETURN">
+      <modelElement href="Inventory-Management.uml#_2PZwxP6eEeyUB803NELkGg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3qU2qf6eEeyUB803NELkGg" comments="_3p9DMv6eEeyUB803NELkGg" targetConnectionVisual="_3p9DM_6eEeyUB803NELkGg" name="CustomerController" associationsIn="_3pr9cP6eEeyUB803NELkGg _3rwaAP6eEeyUB803NELkGg" associationsOut="_3p9qQP6eEeyUB803NELkGg _3p9qQf6eEeyUB803NELkGg _3qU2oP6eEeyUB803NELkGg" generalizations="_3p7OAf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QZ2Uv6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3qU2qv6eEeyUB803NELkGg" position="-976.0,255.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3qU2q_6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3qU2rP6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2Vhm4P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qU2rf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU2rv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qU2r_6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qU2sP6eEeyUB803NELkGg" name="customerDAO">
+      <modelElement href="Inventory-Management.uml#_2ViN8P6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qU2sf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2ViN8f6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qU2sv6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qU2s_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qU2tP6eEeyUB803NELkGg" name="CustomerDAO">
+        <modelElement href="Inventory-Management.uml#_2QA0wP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qU2tf6eEeyUB803NELkGg" name="utils">
+      <modelElement href="Inventory-Management.uml#_2ViN8v6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qU2tv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vi1AP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qU2t_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qU2uP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qU2uf6eEeyUB803NELkGg" name="Utils">
+        <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3qU2uv6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2QbEcP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qU2u_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QbEc_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qU2vP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QbrgP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qU2vf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU2vv6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3qU2v_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QbEcf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qU2wP6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qU2wf6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2Qbrgv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qU2wv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Qbrg_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qU2w_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QcSkP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qU2xP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU2xf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qU2xv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2U3flP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qU2x_6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qU2yP6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2QcSkv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qU2yf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QcSk_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qU2yv6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QcSlP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qU2y_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU2zP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qU2zf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2U3flf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qU2zv6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qU2z_6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2QcSlv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qU20P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Qc5of6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qU20f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2Qc5ov6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qU20v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU20_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qU21P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Qc5oP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qU21f6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qU21v6eEeyUB803NELkGg" name="CustomerController">
+      <modelElement href="Inventory-Management.uml#_2U24gf6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3qU21_6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3qU22P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qU22f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qU22v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2U3fk_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qU22_6eEeyUB803NELkGg" name="CustomerController">
+          <modelElement href="Inventory-Management.uml#_2QZ2Uv6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3qU23P6eEeyUB803NELkGg" name="customerDAO">
+        <modelElement href="Inventory-Management.uml#_2U24gv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qU23f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qU23v6eEeyUB803NELkGg" name="CustomerDAO">
+          <modelElement href="Inventory-Management.uml#_2QA0wP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3qU23_6eEeyUB803NELkGg" name="utils">
+        <modelElement href="Inventory-Management.uml#_2U3fkP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qU24P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qU24f6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3qlVWf6eEeyUB803NELkGg" comments="_3p8cIP6eEeyUB803NELkGg" targetConnectionVisual="_3p8cIf6eEeyUB803NELkGg" name="ItemController" associationsIn="_3pskgP6eEeyUB803NELkGg" associationsOut="_3p9DMP6eEeyUB803NELkGg _3p9DMf6eEeyUB803NELkGg _3qlVUP6eEeyUB803NELkGg" generalizations="_3p7OAP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QQFUP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3qlVWv6eEeyUB803NELkGg" position="782.0,255.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3qlVW_6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3qlVXP6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VfKpP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qlVXf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVXv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qlVX_6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qlVYP6eEeyUB803NELkGg" name="itemDAO">
+      <modelElement href="Inventory-Management.uml#_2VfxsP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qlVYf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vfxsf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qlVYv6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qlVY_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qlVZP6eEeyUB803NELkGg" name="ItemDAO">
+        <modelElement href="Inventory-Management.uml#_2PnzMP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3qlVZf6eEeyUB803NELkGg" name="utils">
+      <modelElement href="Inventory-Management.uml#_2Vfxsv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qlVZv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vfxs_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qlVZ_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qlVaP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qlVaf6eEeyUB803NELkGg" name="Utils">
+        <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3qlVav6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2QQsYP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qlVa_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QQsY_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qlVbP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QQsZP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qlVbf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVbv6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3qlVb_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QQsYf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qlVcP6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qlVcf6eEeyUB803NELkGg" comments="_3p9qQv6eEeyUB803NELkGg" targetConnectionVisual="_3p9qQ_6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2QRTcP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qlVcv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVc_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qlVdP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UynEf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qlVdf6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qlVdv6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2QRTcf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qlVd_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QRTcv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qlVeP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QR6gP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qlVef6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVev6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qlVe_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UynEv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qlVfP6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qlVff6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2QR6gv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3qlVfv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QR6hP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3qlVf_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QR6hf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3qlVgP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVgf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qlVgv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QR6g_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qlVg_6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qlVhP6eEeyUB803NELkGg" name="ItemController">
+      <modelElement href="Inventory-Management.uml#_2UyAAf6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3qlVhf6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3qlVhv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qlVh_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qlViP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UynEP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qlVif6eEeyUB803NELkGg" name="ItemController">
+          <modelElement href="Inventory-Management.uml#_2QQFUP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3qlViv6eEeyUB803NELkGg" name="itemDAO">
+        <modelElement href="Inventory-Management.uml#_2UyAAv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qlVi_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qlVjP6eEeyUB803NELkGg" name="ItemDAO">
+          <modelElement href="Inventory-Management.uml#_2PnzMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3qlVjf6eEeyUB803NELkGg" name="utils">
+        <modelElement href="Inventory-Management.uml#_2UyAA_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3qlVjv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3qlVj_6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_3qqN0P6eEeyUB803NELkGg" comments="_3p6m8P6eEeyUB803NELkGg" targetConnectionVisual="_3p6m8f6eEeyUB803NELkGg" name="CrudController" subclassedBy="_3p4KsP6eEeyUB803NELkGg _3p7OAP6eEeyUB803NELkGg _3p7OAf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2PdbIP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3qqN0f6eEeyUB803NELkGg" position="1053.0,55.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3qqN0v6eEeyUB803NELkGg" name="Generics">
+      <modelElement href="Inventory-Management.uml#_2PepQP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <visibility xmi:id="_3qqN0_6eEeyUB803NELkGg" label="+"/>
+    <operations xmi:id="_3qqN1P6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2PfQUP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qqN1f6eEeyUB803NELkGg" label="~"/>
+      <cardinality xmi:id="_3qqN1v6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3qqN1_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PfQUf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qqN2P6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U9mMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qqN2f6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2Pf3YP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qqN2v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qqN2_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qqN3P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2U-NQf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qqN3f6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U9mMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qqN3v6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2Pf3Yf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qqN3_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qqN4P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qqN4f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2U-NQv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qqN4v6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U9mMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3qqN4_6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2PgecP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qqN5P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3qqN5f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3qqN5v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Pgecf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3qqN5_6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3qwUcP6eEeyUB803NELkGg" name="CustomerNotFoundException">
+    <modelElement href="Inventory-Management.uml#_2Pi6sf6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3qwUcf6eEeyUB803NELkGg" position="20.0,668.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3qwUcv6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3qwUc_6eEeyUB803NELkGg" defaultValue="-1319030538360418254L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VWnwf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3qwUdP6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3qwUdf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3qwUdv6eEeyUB803NELkGg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_3q3pNP6eEeyUB803NELkGg" name="Dao" subclassedBy="_3qxikP6eEeyUB803NELkGg _3qxikf6eEeyUB803NELkGg _3qxikv6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2PjhwP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3q3pNf6eEeyUB803NELkGg" position="-1093.0,-232.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3q3pNv6eEeyUB803NELkGg" name="Generics">
+      <modelElement href="Inventory-Management.uml#_2PkI0P6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <visibility xmi:id="_3q3pN_6eEeyUB803NELkGg" label="+"/>
+    <operations xmi:id="_3q3pOP6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2Pkv4P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pOf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pOv6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3q3pO_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Pkv4f6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q3pPP6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3q3pPf6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2PlW8P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pPv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pP_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q3pQP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PlW8v6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q3pQf6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q3pQv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2PlW8f6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q3pQ_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q3pRP6eEeyUB803NELkGg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q3pRf6eEeyUB803NELkGg" name="read">
+      <modelElement href="Inventory-Management.uml#_2VACcv6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pRv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pR_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q3pSP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VApgP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q3pSf6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q3pSv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VACc_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q3pS_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q3pTP6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q3pTf6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2VApgf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pTv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pT_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q3pUP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VApg_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q3pUf6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q3pUv6eEeyUB803NELkGg" name="t">
+        <modelElement href="Inventory-Management.uml#_2VApgv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q3pU_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q3pVP6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q3pVf6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2VAphP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pVv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pV_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q3pWP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VAphv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q3pWf6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q3pWv6eEeyUB803NELkGg" name="t">
+        <modelElement href="Inventory-Management.uml#_2VAphf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q3pW_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q3pXP6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q3pXf6eEeyUB803NELkGg" name="modelFromResultSet">
+      <modelElement href="Inventory-Management.uml#_2VBQkP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q3pXv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q3pX_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q3pYP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VBQkv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q3pYf6eEeyUB803NELkGg" name="T">
+          <modelElement href="Inventory-Management.uml#_2U_bYP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q3pYv6eEeyUB803NELkGg" name="resultSet">
+        <modelElement href="Inventory-Management.uml#_2VBQkf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q3pY_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q3pZP6eEeyUB803NELkGg" name="ResultSet">
+          <modelElement href="Inventory-Management.uml#_2USQwP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3q76oP6eEeyUB803NELkGg" name="SQLException">
+    <modelElement href="Inventory-Management.uml#_2USQwv6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3q76of6eEeyUB803NELkGg" position="130.0,783.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3q76ov6eEeyUB803NELkGg" name="Reference">
+      <modelElement href="Inventory-Management.uml#_2US30P6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <visibility xmi:id="_3q76o_6eEeyUB803NELkGg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3q9v0P6eEeyUB803NELkGg" name="CustomerDAO" associationsIn="_3qU2oP6eEeyUB803NELkGg _3rvy8P6eEeyUB803NELkGg _3r3uwP6eEeyUB803NELkGg" associationsOut="_3qzXwf6eEeyUB803NELkGg" generalizations="_3qxikv6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QA0wP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3q9v0f6eEeyUB803NELkGg" position="-1476.0,6.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3q9v0v6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3q9v0_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VcHUP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q9v1P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9v1f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3q9v1v6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3q9v1_6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2QBb0P6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3q9v2P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QCC4v6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3q9v2f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QCp8P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3q9v2v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9v2_6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3q9v3P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QCC4P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9v3f6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3q9v3v6eEeyUB803NELkGg" name="readLatest">
+      <modelElement href="Inventory-Management.uml#_2QCp8v6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3q9v3_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9v4P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q9v4f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UoPAf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9v4v6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3q9v4_6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2QDRAP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3q9v5P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QDRA_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3q9v5f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QD4EP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3q9v5v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9v5_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q9v6P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QDRAv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9v6f6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q9v6v6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2QDRAf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q9v6_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q9v7P6eEeyUB803NELkGg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q9v7f6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2UoPAv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3q9v7v6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Uo2Ev6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3q9v7_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2Uo2E_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3q9v8P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9v8f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q9v8v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Uo2Ef6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9v8_6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q9v9P6eEeyUB803NELkGg" name="customer">
+        <modelElement href="Inventory-Management.uml#_2Uo2EP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q9v9f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q9v9v6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q9v9_6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2UpdIP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3q9v-P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2UpdI_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3q9v-f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2UpdJP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3q9v-v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9v-_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q9v_P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UpdIv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9v_f6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q9v_v6eEeyUB803NELkGg" name="customer">
+        <modelElement href="Inventory-Management.uml#_2UpdIf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q9v__6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q9wAP6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q9wAf6eEeyUB803NELkGg" name="modelFromResultSet">
+      <modelElement href="Inventory-Management.uml#_2VM2wP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3q9wAv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VM2w_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3q9wA_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VNd0P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3q9wBP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9wBf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q9wBv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VM2wv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9wB_6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q9wCP6eEeyUB803NELkGg" name="resultSet">
+        <modelElement href="Inventory-Management.uml#_2VM2wf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q9wCf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q9wCv6eEeyUB803NELkGg" name="ResultSet">
+          <modelElement href="Inventory-Management.uml#_2USQwP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3q9wC_6eEeyUB803NELkGg" name="read">
+      <modelElement href="Inventory-Management.uml#_2VNd0v6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3q9wDP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VNd1f6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3q9wDf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VOE4P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3q9wDv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3q9wD_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3q9wEP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VNd1P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3q9wEf6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3q9wEv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VNd0_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3q9wE_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3q9wFP6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3rDPYP6eEeyUB803NELkGg" name="OrderDAO" associationsIn="_3qCiwP6eEeyUB803NELkGg" associationsOut="_3qzXwP6eEeyUB803NELkGg" generalizations="_3qxikf6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2PtSwP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rDPYf6eEeyUB803NELkGg" position="-1778.0,1006.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3rDPYv6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rDPY_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VXO0P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rDPZP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPZf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rDPZv6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rDPZ_6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2Pug4P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rDPaP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPaf6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3rDPav6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Pug4f6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPa_6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rDPbP6eEeyUB803NELkGg" name="readLatest">
+      <modelElement href="Inventory-Management.uml#_2PvH8P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rDPbf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPbv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rDPb_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UeeAP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPcP6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rDPcf6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2PvvAP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rDPcv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPc_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rDPdP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PvvAv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPdf6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rDPdv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2PvvAf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rDPd_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rDPeP6eEeyUB803NELkGg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rDPef6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2UeeAf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rDPev6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2UfFEP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rDPe_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2UfFEf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rDPfP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPff6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rDPfv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UeeA_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPf_6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rDPgP6eEeyUB803NELkGg" name="order">
+        <modelElement href="Inventory-Management.uml#_2UeeAv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rDPgf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rDPgv6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rDPg_6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2UfFE_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rDPhP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2UfsIP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rDPhf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2UfsIf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rDPhv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPh_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rDPiP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UfFFf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPif6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rDPiv6eEeyUB803NELkGg" name="order">
+        <modelElement href="Inventory-Management.uml#_2UfFFP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rDPi_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rDPjP6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rDPjf6eEeyUB803NELkGg" name="modelFromResultSet">
+      <modelElement href="Inventory-Management.uml#_2VDs0P6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rDPjv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VDs0_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rDPj_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VET4P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rDPkP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPkf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rDPkv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VDs0v6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPk_6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rDPlP6eEeyUB803NELkGg" name="resultSet">
+        <modelElement href="Inventory-Management.uml#_2VDs0f6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rDPlf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rDPlv6eEeyUB803NELkGg" name="ResultSet">
+          <modelElement href="Inventory-Management.uml#_2USQwP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rDPl_6eEeyUB803NELkGg" name="read">
+      <modelElement href="Inventory-Management.uml#_2VET4v6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rDPmP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VET5f6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rDPmf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VE68P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rDPmv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rDPm_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rDPnP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VET5P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rDPnf6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rDPnv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VET4_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rDPn_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rDPoP6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3rHg0P6eEeyUB803NELkGg" name="ItemDAO" associationsIn="_3qlVUP6eEeyUB803NELkGg" associationsOut="_3qywsP6eEeyUB803NELkGg" generalizations="_3qxikP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2PnzMP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rHg0f6eEeyUB803NELkGg" position="1324.0,6.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3rHg0v6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rHg0_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VWnw_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rHg1P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHg1f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rHg1v6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rHg1_6eEeyUB803NELkGg" name="readAll">
+      <modelElement href="Inventory-Management.uml#_2PoaQP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rHg2P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2PpBUP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rHg2f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2PpBUf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rHg2v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHg2_6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_3rHg3P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PoaQf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHg3f6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rHg3v6eEeyUB803NELkGg" name="readLatest">
+      <modelElement href="Inventory-Management.uml#_2PpBU_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rHg3_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHg4P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rHg4f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UbasP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHg4v6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rHg4_6eEeyUB803NELkGg" name="delete">
+      <modelElement href="Inventory-Management.uml#_2PqPcP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rHg5P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Pq2gP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rHg5f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2Pq2gf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rHg5v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHg5_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rHg6P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PqPcv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHg6f6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rHg6v6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2PqPcf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rHg6_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rHg7P6eEeyUB803NELkGg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rHg7f6eEeyUB803NELkGg" name="create">
+      <modelElement href="Inventory-Management.uml#_2Ubasf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rHg7v6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2UcBwf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rHg7_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2UcBwv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rHg8P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHg8f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rHg8v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UcBwP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHg8_6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rHg9P6eEeyUB803NELkGg" name="item">
+        <modelElement href="Inventory-Management.uml#_2Ubasv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rHg9f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rHg9v6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rHg9_6eEeyUB803NELkGg" name="update">
+      <modelElement href="Inventory-Management.uml#_2Uco0P6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rHg-P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Uco0_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rHg-f6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2Uco1P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rHg-v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHg-_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rHg_P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2Uco0v6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHg_f6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rHg_v6eEeyUB803NELkGg" name="item">
+        <modelElement href="Inventory-Management.uml#_2Uco0f6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rHg__6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rHhAP6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rHhAf6eEeyUB803NELkGg" name="modelFromResultSet">
+      <modelElement href="Inventory-Management.uml#_2VB3oP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rHhAv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VCesf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rHhA_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VCesv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rHhBP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHhBf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rHhBv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VCesP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHhB_6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rHhCP6eEeyUB803NELkGg" name="resultSet">
+        <modelElement href="Inventory-Management.uml#_2VB3of6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rHhCf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rHhCv6eEeyUB803NELkGg" name="ResultSet">
+          <modelElement href="Inventory-Management.uml#_2USQwP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rHhC_6eEeyUB803NELkGg" name="read">
+      <modelElement href="Inventory-Management.uml#_2VCetP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rHhDP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VDFwf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rHhDf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VDFwv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rHhDv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rHhD_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rHhEP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VDFwP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rHhEf6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rHhEv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VCetf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rHhE_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rHhFP6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3rNAYP6eEeyUB803NELkGg" name="Customer">
+    <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rNAYf6eEeyUB803NELkGg" position="-41.0,909.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3rNAYv6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rNAY_6eEeyUB803NELkGg" name="id">
+      <modelElement href="Inventory-Management.uml#_2VX14P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rNAZP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAZf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rNAZv6eEeyUB803NELkGg" name="Long">
+        <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rNAZ_6eEeyUB803NELkGg" name="firstName">
+      <modelElement href="Inventory-Management.uml#_2VX14f6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rNAaP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAaf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rNAav6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rNAa_6eEeyUB803NELkGg" name="surname">
+      <modelElement href="Inventory-Management.uml#_2VYc8P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rNAbP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAbf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rNAbv6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rNAb_6eEeyUB803NELkGg" name="Customer">
+      <modelElement href="Inventory-Management.uml#_2PyyUP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rNAcP6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rNAcf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAcv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rNAc_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PyyVf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rNAdP6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rNAdf6eEeyUB803NELkGg" name="firstName">
+        <modelElement href="Inventory-Management.uml#_2PyyUf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rNAdv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rNAd_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rNAeP6eEeyUB803NELkGg" name="surname">
+        <modelElement href="Inventory-Management.uml#_2PyyUv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rNAef6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rNAev6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rNAe_6eEeyUB803NELkGg" name="toString">
+      <modelElement href="Inventory-Management.uml#_2PzZYP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rNAfP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2PzZYv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rNAff6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2PzZY_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rNAfv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAf_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rNAgP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2PzZYf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rNAgf6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rNAgv6eEeyUB803NELkGg" name="hashCode">
+      <modelElement href="Inventory-Management.uml#_2P0AcP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rNAg_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2P0Acv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rNAhP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2P0Ac_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rNAhf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAhv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rNAh_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2P0Acf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rNAiP6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rNAif6eEeyUB803NELkGg" name="Customer">
+      <modelElement href="Inventory-Management.uml#_2VFiAP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rNAiv6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rNAi_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAjP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rNAjf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VFiBv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rNAjv6eEeyUB803NELkGg" name="Customer">
+          <modelElement href="Inventory-Management.uml#_2PxkMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rNAj_6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VFiAf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rNAkP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rNAkf6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rNAkv6eEeyUB803NELkGg" name="firstName">
+        <modelElement href="Inventory-Management.uml#_2VFiAv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rNAk_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rNAlP6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rNAlf6eEeyUB803NELkGg" name="surname">
+        <modelElement href="Inventory-Management.uml#_2VFiA_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rNAlv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rNAl_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rNAmP6eEeyUB803NELkGg" name="equals">
+      <modelElement href="Inventory-Management.uml#_2VGJEf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rNAmf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VGJFP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rNAmv6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VGJFf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rNAm_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rNAnP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rNAnf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VGJE_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rNAnv6eEeyUB803NELkGg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rNAn_6eEeyUB803NELkGg" name="obj">
+        <modelElement href="Inventory-Management.uml#_2VGJEv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rNAoP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rNAof6eEeyUB803NELkGg" name="Object">
+          <modelElement href="Inventory-Management.uml#_2VFiB_6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_3rR45P6eEeyUB803NELkGg" name="Domain" associationsOut="_3rQqwP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2P1OkP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rR45f6eEeyUB803NELkGg" position="-404.0,325.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3rR45v6eEeyUB803NELkGg" name="Patch">
+      <modelElement href="Inventory-Management.uml#_3ouUIP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <visibility xmi:id="_3rR45_6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rR46P6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VZEAP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rR46f6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rR46v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rR46_6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rR47P6eEeyUB803NELkGg" name="description">
+      <modelElement href="Inventory-Management.uml#_2VZEAv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rR47f6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VZrEP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rR47v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rR47_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rR48P6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rR48f6eEeyUB803NELkGg" name="Domain">
+      <modelElement href="Inventory-Management.uml#_2P3DwP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rR48v6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rR48_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rR49P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rR49f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2P3DxP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rR49v6eEeyUB803NELkGg" name="Domain">
+          <modelElement href="Inventory-Management.uml#_2P1OkP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rR49_6eEeyUB803NELkGg" name="description">
+        <modelElement href="Inventory-Management.uml#_2P3Dwf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rR4-P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rR4-f6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rR4-v6eEeyUB803NELkGg" name="printDomains" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2P3Dxf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rR4-_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rR4_P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3rR4_f6eEeyUB803NELkGg" name="getDomain" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2Ug6QP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rR4_v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rR4__6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rR5AP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UhhUf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rR5Af6eEeyUB803NELkGg" name="Domain">
+          <modelElement href="Inventory-Management.uml#_2P1OkP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rR5Av6eEeyUB803NELkGg" name="utils">
+        <modelElement href="Inventory-Management.uml#_2UhhUP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rR5A_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rR5BP6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_3rR5Bf6eEeyUB803NELkGg" name="CUSTOMER">
+      <modelElement href="Inventory-Management.uml#_2P11oP6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3rR5Bv6eEeyUB803NELkGg" name="ITEM">
+      <modelElement href="Inventory-Management.uml#_2P11ov6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3rR5B_6eEeyUB803NELkGg" name="ORDER">
+      <modelElement href="Inventory-Management.uml#_2P11pP6eEeyUB803NELkGg"/>
+    </literals>
+    <literals xmi:id="_3rR5CP6eEeyUB803NELkGg" name="STOP">
+      <modelElement href="Inventory-Management.uml#_2P11pv6eEeyUB803NELkGg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3rYmkP6eEeyUB803NELkGg" name="Order">
+    <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rYmkf6eEeyUB803NELkGg" position="-737.0,662.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3rYmkv6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rYmk_6eEeyUB803NELkGg" name="id">
+      <modelElement href="Inventory-Management.uml#_2Va5MP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYmlP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmlf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rYmlv6eEeyUB803NELkGg" name="Long">
+        <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rYml_6eEeyUB803NELkGg" name="customer_id">
+      <modelElement href="Inventory-Management.uml#_2Va5Mf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rYmmP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Va5Mv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rYmmf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rYmmv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rYmm_6eEeyUB803NELkGg" name="Long">
+        <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rYmnP6eEeyUB803NELkGg" name="item_name">
+      <modelElement href="Inventory-Management.uml#_2Va5M_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rYmnf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VbgQP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rYmnv6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rYmn_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rYmoP6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rYmof6eEeyUB803NELkGg" name="item_price">
+      <modelElement href="Inventory-Management.uml#_2VbgQf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rYmov6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VbgQv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rYmo_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rYmpP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rYmpf6eEeyUB803NELkGg" name="Double">
+        <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rYmpv6eEeyUB803NELkGg" name="description">
+      <modelElement href="Inventory-Management.uml#_2VbgQ_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYmp_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmqP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rYmqf6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rYmqv6eEeyUB803NELkGg" name="getCustomerId">
+      <modelElement href="Inventory-Management.uml#_2P9KYP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYmq_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmrP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYmrf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VLBkP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYmrv6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rYmr_6eEeyUB803NELkGg" name="getItemName">
+      <modelElement href="Inventory-Management.uml#_2P9xcP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYmsP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmsf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYmsv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2P9xcf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYms_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rYmtP6eEeyUB803NELkGg" name="setItemName">
+      <modelElement href="Inventory-Management.uml#_2P9xcv6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYmtf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmtv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3rYmt_6eEeyUB803NELkGg" name="item_name">
+        <modelElement href="Inventory-Management.uml#_2P9xc_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYmuP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYmuf6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rYmuv6eEeyUB803NELkGg" name="Price">
+      <modelElement href="Inventory-Management.uml#_2P-YgP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYmu_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmvP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYmvf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VLBk_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYmvv6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rYmv_6eEeyUB803NELkGg" name="hashCode">
+      <modelElement href="Inventory-Management.uml#_2P-Ygf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rYmwP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2P-_kP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rYmwf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2P-_kf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rYmwv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmw_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYmxP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2P-Ygv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYmxf6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rYmxv6eEeyUB803NELkGg" name="Order">
+      <modelElement href="Inventory-Management.uml#_2VJzcP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rYmx_6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rYmyP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYmyf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYmyv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VJzd_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYmy_6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rYmzP6eEeyUB803NELkGg" name="item_name">
+        <modelElement href="Inventory-Management.uml#_2VJzcf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYmzf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYmzv6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYmz_6eEeyUB803NELkGg" name="customer_id">
+        <modelElement href="Inventory-Management.uml#_2VJzcv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm0P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm0f6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYm0v6eEeyUB803NELkGg" name="item_price">
+        <modelElement href="Inventory-Management.uml#_2VJzc_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm0_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm1P6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYm1f6eEeyUB803NELkGg" name="description">
+        <modelElement href="Inventory-Management.uml#_2VJzdP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm1v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm1_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rYm2P6eEeyUB803NELkGg" name="Order">
+      <modelElement href="Inventory-Management.uml#_2VKagP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rYm2f6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rYm2v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYm2_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYm3P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VKaiP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYm3f6eEeyUB803NELkGg" name="Order">
+          <modelElement href="Inventory-Management.uml#_2P78QP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rYm3v6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VKagf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm3_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm4P6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYm4f6eEeyUB803NELkGg" name="customer_id">
+        <modelElement href="Inventory-Management.uml#_2VKagv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm4v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm4_6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYm5P6eEeyUB803NELkGg" name="item_name">
+        <modelElement href="Inventory-Management.uml#_2VKag_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm5f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm5v6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYm5_6eEeyUB803NELkGg" name="item_price">
+        <modelElement href="Inventory-Management.uml#_2VKahP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm6P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm6f6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3rYm6v6eEeyUB803NELkGg" name="description">
+        <modelElement href="Inventory-Management.uml#_2VKahf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm6_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm7P6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rYm7f6eEeyUB803NELkGg" name="setCustomerId">
+      <modelElement href="Inventory-Management.uml#_2VLBkf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYm7v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYm7_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3rYm8P6eEeyUB803NELkGg" name="customer_id">
+        <modelElement href="Inventory-Management.uml#_2VLBkv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm8f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm8v6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rYm8_6eEeyUB803NELkGg" name="setPrice">
+      <modelElement href="Inventory-Management.uml#_2VLBlP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rYm9P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYm9f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_3rYm9v6eEeyUB803NELkGg" name="item_price">
+        <modelElement href="Inventory-Management.uml#_2VLBlf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYm9_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYm-P6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rYm-f6eEeyUB803NELkGg" name="equals">
+      <modelElement href="Inventory-Management.uml#_2VLooP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rYm-v6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VLoo_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3rYm-_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VLopP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rYm_P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rYm_f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rYm_v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VLoov6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rYm__6eEeyUB803NELkGg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rYnAP6eEeyUB803NELkGg" name="obj">
+        <modelElement href="Inventory-Management.uml#_2VLoof6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rYnAf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rYnAv6eEeyUB803NELkGg" name="Object">
+          <modelElement href="Inventory-Management.uml#_2VFiB_6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3retMP6eEeyUB803NELkGg" name="Item">
+    <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3retMf6eEeyUB803NELkGg" position="464.0,658.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3retMv6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3retM_6eEeyUB803NELkGg" name="id">
+      <modelElement href="Inventory-Management.uml#_2VaSIP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3retNP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retNf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3retNv6eEeyUB803NELkGg" name="Long">
+        <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3retN_6eEeyUB803NELkGg" name="name">
+      <modelElement href="Inventory-Management.uml#_2VaSIf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3retOP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retOf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3retOv6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3retO_6eEeyUB803NELkGg" name="value">
+      <modelElement href="Inventory-Management.uml#_2VaSIv6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3retPP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retPf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3retPv6eEeyUB803NELkGg" name="Double">
+        <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3retP_6eEeyUB803NELkGg" name="origin">
+      <modelElement href="Inventory-Management.uml#_2VaSI_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3retQP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retQf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3retQv6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3retQ_6eEeyUB803NELkGg" name="description">
+      <modelElement href="Inventory-Management.uml#_2VaSJP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3retRP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retRf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3retRv6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3retR_6eEeyUB803NELkGg" name="hashCode">
+      <modelElement href="Inventory-Management.uml#_2P6HEP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3retSP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2P6HEv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3retSf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2P6uIP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3retSv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retS_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3retTP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2P6HEf6eEeyUB803NELkGg"/>
+        <type xmi:id="_3retTf6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3retTv6eEeyUB803NELkGg" name="Item">
+      <modelElement href="Inventory-Management.uml#_2VH-QP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3retT_6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3retUP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retUf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3retUv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VH-R_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3retU_6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3retVP6eEeyUB803NELkGg" name="name">
+        <modelElement href="Inventory-Management.uml#_2VH-Qf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retVf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retVv6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retV_6eEeyUB803NELkGg" name="value">
+        <modelElement href="Inventory-Management.uml#_2VH-Qv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retWP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retWf6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retWv6eEeyUB803NELkGg" name="origin">
+        <modelElement href="Inventory-Management.uml#_2VH-Q_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retW_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retXP6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retXf6eEeyUB803NELkGg" name="description">
+        <modelElement href="Inventory-Management.uml#_2VH-RP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retXv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retX_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3retYP6eEeyUB803NELkGg" name="Item">
+      <modelElement href="Inventory-Management.uml#_2VH-SP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3retYf6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3retYv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retY_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3retZP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VIlV_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3retZf6eEeyUB803NELkGg" name="Item">
+          <modelElement href="Inventory-Management.uml#_2P448P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3retZv6eEeyUB803NELkGg" name="id">
+        <modelElement href="Inventory-Management.uml#_2VIlUP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retZ_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retaP6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retaf6eEeyUB803NELkGg" name="name">
+        <modelElement href="Inventory-Management.uml#_2VIlUf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retav6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3reta_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retbP6eEeyUB803NELkGg" name="origin">
+        <modelElement href="Inventory-Management.uml#_2VIlUv6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retbf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retbv6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retb_6eEeyUB803NELkGg" name="value">
+        <modelElement href="Inventory-Management.uml#_2VIlU_6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retcP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retcf6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_3retcv6eEeyUB803NELkGg" name="description">
+        <modelElement href="Inventory-Management.uml#_2VIlVP6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retc_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retdP6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3retdf6eEeyUB803NELkGg" name="equals">
+      <modelElement href="Inventory-Management.uml#_2VIlWP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3retdv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VJMYP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3retd_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VJMYf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3reteP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3retef6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3retev6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VIlWv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rete_6eEeyUB803NELkGg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3retfP6eEeyUB803NELkGg" name="obj">
+        <modelElement href="Inventory-Management.uml#_2VIlWf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3retff6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3retfv6eEeyUB803NELkGg" name="Object">
+          <modelElement href="Inventory-Management.uml#_2VFiB_6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3rkz0P6eEeyUB803NELkGg" name="Utils" associationsIn="_3ptLkP6eEeyUB803NELkGg _3p4xwP6eEeyUB803NELkGg _3p9DMf6eEeyUB803NELkGg _3p9qQf6eEeyUB803NELkGg _3rvL4P6eEeyUB803NELkGg" associationsOut="_3ri-oP6eEeyUB803NELkGg _3rkMxP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rkz0f6eEeyUB803NELkGg" position="-333.0,25.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3rkz0v6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rkz0_6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VfKoP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkz1P6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rkz1f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rkz1v6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rkz1_6eEeyUB803NELkGg" name="scanner">
+      <modelElement href="Inventory-Management.uml#_2VfKov6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rkz2P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VfKo_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rkz2f6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rkz2v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rkz2_6eEeyUB803NELkGg" name="Scanner">
+        <modelElement href="Inventory-Management.uml#_2UvjwP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rkz3P6eEeyUB803NELkGg" name="Utils">
+      <modelElement href="Inventory-Management.uml#_2QOQIP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rkz3f6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rkz3v6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkz3_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rkz4P6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QOQI_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rkz4f6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rkz4v6eEeyUB803NELkGg" name="getLong">
+      <modelElement href="Inventory-Management.uml#_2QO3MP6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkz4_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkz5P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rkz5f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VP6EP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rkz5v6eEeyUB803NELkGg" name="Long">
+          <modelElement href="Inventory-Management.uml#_2VACcP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rkz5_6eEeyUB803NELkGg" name="getString">
+      <modelElement href="Inventory-Management.uml#_2QO3Mf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkz6P6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkz6f6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rkz6v6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QO3Mv6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rkz6_6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rkz7P6eEeyUB803NELkGg" name="getDouble">
+      <modelElement href="Inventory-Management.uml#_2QO3M_6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rkz7f6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkz7v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rkz7_6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VP6Ef6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rkz8P6eEeyUB803NELkGg" name="Double">
+          <modelElement href="Inventory-Management.uml#_2VHXMP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rkz8f6eEeyUB803NELkGg" name="Utils">
+      <modelElement href="Inventory-Management.uml#_2VPTAP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rkz8v6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rkz8_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rkz9P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rkz9f6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VPTBP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rkz9v6eEeyUB803NELkGg" name="Utils">
+          <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rkz9_6eEeyUB803NELkGg" name="scanner">
+        <modelElement href="Inventory-Management.uml#_2VPTAf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rkz-P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rkz-f6eEeyUB803NELkGg" name="Scanner">
+          <modelElement href="Inventory-Management.uml#_2UvjwP6eEeyUB803NELkGg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3rqTYv6eEeyUB803NELkGg" name="DBUtils" associationsIn="_3rn3IP6eEeyUB803NELkGg" associationsOut="_3rn3IP6eEeyUB803NELkGg _3roeMP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QJXoP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3rqTY_6eEeyUB803NELkGg" position="-1410.0,342.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3rqTZP6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3rqTZf6eEeyUB803NELkGg" defaultValue="LogManager.getLogger()" name="LOGGER" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2VdVcf6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rqTZv6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rqTZ_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rqTaP6eEeyUB803NELkGg" name="Logger">
+        <modelElement href="Inventory-Management.uml#_2UK8AP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rqTaf6eEeyUB803NELkGg" name="dbUrl">
+      <modelElement href="Inventory-Management.uml#_2VdVc_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rqTav6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vd8gP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rqTa_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rqTbP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rqTbf6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rqTbv6eEeyUB803NELkGg" name="dbUser">
+      <modelElement href="Inventory-Management.uml#_2Vd8gf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rqTb_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vd8gv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rqTcP6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rqTcf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rqTcv6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rqTc_6eEeyUB803NELkGg" name="dbPassword">
+      <modelElement href="Inventory-Management.uml#_2Vd8g_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rqTdP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vd8hP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rqTdf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rqTdv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rqTd_6eEeyUB803NELkGg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3rqTeP6eEeyUB803NELkGg" name="instance" staticAttribute="true">
+      <modelElement href="Inventory-Management.uml#_2Vd8hf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rqTef6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2VejkP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rqTev6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTe_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3rqTfP6eEeyUB803NELkGg" name="DBUtils">
+        <modelElement href="Inventory-Management.uml#_2QJXoP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3rqTff6eEeyUB803NELkGg" name="DBUtils">
+      <modelElement href="Inventory-Management.uml#_2QJ-sP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rqTfv6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rqTf_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3rqTgP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqTgf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QJ-tP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTgv6eEeyUB803NELkGg" name="DBUtils">
+          <modelElement href="Inventory-Management.uml#_2QJXoP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rqTg_6eEeyUB803NELkGg" name="properties">
+        <modelElement href="Inventory-Management.uml#_2QJ-sf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rqThP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rqThf6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rqThv6eEeyUB803NELkGg" name="DBUtils">
+      <modelElement href="Inventory-Management.uml#_2QKlwP6eEeyUB803NELkGg"/>
+      <keywords xmi:id="_3rqTh_6eEeyUB803NELkGg" keyword="create"/>
+      <visibility xmi:id="_3rqTiP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTif6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqTiv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QKlw_6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTi_6eEeyUB803NELkGg" name="DBUtils">
+          <modelElement href="Inventory-Management.uml#_2QJXoP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rqTjP6eEeyUB803NELkGg" name="init">
+      <modelElement href="Inventory-Management.uml#_2QKlxP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3rqTjf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QLM0f6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3rqTjv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTj_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqTkP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QLM0P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTkf6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rqTkv6eEeyUB803NELkGg" name="paths">
+        <modelElement href="Inventory-Management.uml#_2QKlxf6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rqTk_6eEeyUB803NELkGg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_3rqTlP6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rqTlf6eEeyUB803NELkGg" name="executeSQLFile">
+      <modelElement href="Inventory-Management.uml#_2QLM1P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rqTlv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTl_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqTmP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2QLz4P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTmf6eEeyUB803NELkGg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rqTmv6eEeyUB803NELkGg" name="file">
+        <modelElement href="Inventory-Management.uml#_2QLM1f6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rqTm_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rqTnP6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_3rqTnf6eEeyUB803NELkGg" name="getConnection">
+      <modelElement href="Inventory-Management.uml#_2QLz4f6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rqTnv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTn_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqToP6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2VOr8P6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTof6eEeyUB803NELkGg" name="Connection">
+          <modelElement href="Inventory-Management.uml#_2UUF8P6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rqTov6eEeyUB803NELkGg" name="connect" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2QLz4v6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rqTo_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTpP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqTpf6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UuVoP6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTpv6eEeyUB803NELkGg" name="DBUtils">
+          <modelElement href="Inventory-Management.uml#_2QJXoP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_3rqTp_6eEeyUB803NELkGg" name="connect" staticOperation="true">
+      <modelElement href="Inventory-Management.uml#_2QMa8P6eEeyUB803NELkGg"/>
+      <visibility xmi:id="_3rqTqP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3rqTqf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_3rqTqv6eEeyUB803NELkGg">
+        <modelElement href="Inventory-Management.uml#_2UuVof6eEeyUB803NELkGg"/>
+        <type xmi:id="_3rqTq_6eEeyUB803NELkGg" name="DBUtils">
+          <modelElement href="Inventory-Management.uml#_2QJXoP6eEeyUB803NELkGg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_3rqTrP6eEeyUB803NELkGg" name="properties">
+        <modelElement href="Inventory-Management.uml#_2QMa8f6eEeyUB803NELkGg"/>
+        <cardinality xmi:id="_3rqTrf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+        <type xmi:id="_3rqTrv6eEeyUB803NELkGg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3r0EYP6eEeyUB803NELkGg" name="CustomerControllerTest" associationsOut="_3rvL4P6eEeyUB803NELkGg _3rvy8P6eEeyUB803NELkGg _3rwaAP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QTIoP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3r0EYf6eEeyUB803NELkGg" position="-271.0,1047.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3r0EYv6eEeyUB803NELkGg" name="LegacyStyledElement">
+      <modelElement href="Inventory-Management.uml#_2QUWwP6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_3r0EY_6eEeyUB803NELkGg" name="Annotations">
+      <modelElement href="Inventory-Management.uml#_2QVk5f6eEeyUB803NELkGg"/>
+    </stereotypes>
+    <visibility xmi:id="_3r0EZP6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3r0EZf6eEeyUB803NELkGg" name="utils">
+      <modelElement href="Inventory-Management.uml#_2VgYwP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0EZv6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VgYwf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0EZ_6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3r0EaP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3r0Eaf6eEeyUB803NELkGg" name="Utils">
+        <modelElement href="Inventory-Management.uml#_2QNpEP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3r0Eav6eEeyUB803NELkGg" name="dao">
+      <modelElement href="Inventory-Management.uml#_2VgYw_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0Ea_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2VgYxP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0EbP6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3r0Ebf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3r0Ebv6eEeyUB803NELkGg" name="CustomerDAO">
+        <modelElement href="Inventory-Management.uml#_2QA0wP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_3r0Eb_6eEeyUB803NELkGg" name="controller">
+      <modelElement href="Inventory-Management.uml#_2VgYxv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0EcP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2Vg_0P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0Ecf6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3r0Ecv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3r0Ec_6eEeyUB803NELkGg" name="CustomerController">
+        <modelElement href="Inventory-Management.uml#_2QZ2Uv6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3r0EdP6eEeyUB803NELkGg" name="testCreate">
+      <modelElement href="Inventory-Management.uml#_2QUWwf6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0Edf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QU90P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0Edv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r0Ed_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r0EeP6eEeyUB803NELkGg" name="testReadAll">
+      <modelElement href="Inventory-Management.uml#_2QU90v6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0Eef6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QU90_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0Eev6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r0Ee_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r0EfP6eEeyUB803NELkGg" name="testUpdate">
+      <modelElement href="Inventory-Management.uml#_2QU91f6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0Eff6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QVk4P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0Efv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r0Ef_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r0EgP6eEeyUB803NELkGg" name="testDelete">
+      <modelElement href="Inventory-Management.uml#_2QVk4v6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r0Egf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QVk4_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r0Egv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r0Eg_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3r5j8P6eEeyUB803NELkGg" name="CustomerDAOTest" associationsOut="_3r3uwP6eEeyUB803NELkGg">
+    <modelElement href="Inventory-Management.uml#_2QWzAP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3r5j8f6eEeyUB803NELkGg" position="-1001.0,488.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3r5j8v6eEeyUB803NELkGg" label="+"/>
+    <attributes xmi:id="_3r5j8_6eEeyUB803NELkGg" defaultValue="new CustomerDAO()" name="DAO">
+      <modelElement href="Inventory-Management.uml#_2Vg_0v6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5j9P6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2Vg_1P6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5j9f6eEeyUB803NELkGg" label="-"/>
+      <cardinality xmi:id="_3r5j9v6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+      <type xmi:id="_3r5j9_6eEeyUB803NELkGg" name="CustomerDAO">
+        <modelElement href="Inventory-Management.uml#_2QA0wP6eEeyUB803NELkGg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_3r5j-P6eEeyUB803NELkGg" name="setup">
+      <modelElement href="Inventory-Management.uml#_2QXaEP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5j-f6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QXaEf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5j-v6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QXaEv6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5j-_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5j_P6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r5j_f6eEeyUB803NELkGg" name="testCreate">
+      <modelElement href="Inventory-Management.uml#_2QXaFP6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5j_v6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QXaFf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5j__6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QYBIP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5kAP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5kAf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r5kAv6eEeyUB803NELkGg" name="testReadAll">
+      <modelElement href="Inventory-Management.uml#_2QYBIv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5kA_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QYBI_6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5kBP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QYBJP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5kBf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5kBv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r5kB_6eEeyUB803NELkGg" name="testReadLatest">
+      <modelElement href="Inventory-Management.uml#_2QYBJv6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5kCP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QYoMP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5kCf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QYoMf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5kCv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5kC_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r5kDP6eEeyUB803NELkGg" name="testRead">
+      <modelElement href="Inventory-Management.uml#_2QYoM_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5kDf6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QYoNP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5kDv6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QYoNf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5kD_6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5kEP6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r5kEf6eEeyUB803NELkGg" name="testUpdate">
+      <modelElement href="Inventory-Management.uml#_2QYoN_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5kEv6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QZPQP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5kE_6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QZPQf6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5kFP6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5kFf6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_3r5kFv6eEeyUB803NELkGg" name="testDelete">
+      <modelElement href="Inventory-Management.uml#_2QZPQ_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r5kF_6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2QZPRP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r5kGP6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2QZ2UP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r5kGf6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r5kGv6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3r8AMP6eEeyUB803NELkGg" name="CustomerTest">
+    <modelElement href="Inventory-Management.uml#_2PhFgP6eEeyUB803NELkGg"/>
+    <visualProperties xmi:id="_3r8AMf6eEeyUB803NELkGg" position="72.0,1177.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_3r8AMv6eEeyUB803NELkGg" label="+"/>
+    <operations xmi:id="_3r8AM_6eEeyUB803NELkGg" name="testEquals">
+      <modelElement href="Inventory-Management.uml#_2Phsk_6eEeyUB803NELkGg"/>
+      <stereotypes xmi:id="_3r8ANP6eEeyUB803NELkGg" name="LegacyStyledElement">
+        <modelElement href="Inventory-Management.uml#_2PhslP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_3r8ANf6eEeyUB803NELkGg" name="Annotations">
+        <modelElement href="Inventory-Management.uml#_2PiToP6eEeyUB803NELkGg"/>
+      </stereotypes>
+      <visibility xmi:id="_3r8ANv6eEeyUB803NELkGg" label="+"/>
+      <cardinality xmi:id="_3r8AN_6eEeyUB803NELkGg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
